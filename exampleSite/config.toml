@@ -427,8 +427,214 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         RSS = true
         Orcid = ""
 
+  [languages.de]
+    weight = 1
+    # language code
+    languageCode = "de"
+    # language name
+    languageName = "Deutsch"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "Dieses Theme unterliegt folgendem Lizenzmodell: Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.de.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.de.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Kategorien"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.de.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Dokumentation"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 4
+      [[languages.de.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Über"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.de.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/sunt-programator/CodeIT"
+        title = "GitHub"
+        weight = 6
+    [languages.de.params]
+      # site description
+      description = "Über das CodeIT Theme"
+      # site keywords
+      keywords = ["Theme", "Hugo"]
+      # App icon config
+      [languages.de.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "CodeIT"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.de.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.de.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.de.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.de.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/avatar.png"
+          # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+          avatarAlt = ""
+          # title shown in home page (HTML format is supported)
+          title = ""
+          # subtitle shown in home page
+          # {{< version 0.1.1 changed >}} (HTML format is supported)
+          subtitle = "Ein schnörkelloses, elegantes, fortgeschrittenes Hugo Theme"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.de.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.de.params.social]
+        GitHub = "xxxx"
+        Linkedin = ""
+        Twitter = "xxxx"
+        Instagram = "xxxx"
+        Facebook = "xxxx"
+        Telegram = "xxxx"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = "xxxx"
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "xxxx@xxxx.com"
+        RSS = true
+        Orcid = ""
+        [languages.de.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
+
   [languages.fr]
-    weight = 3
+    weight = 4
     # language code
     languageCode = "fr"
     # language name
